@@ -1,6 +1,8 @@
 .layout {
-  min-height: 100vh; /* Ensure the layout takes the full height of the viewport */
-  background-color: #fff !important; /* Customize the background color */
+  min-height: 100vh;
+  background-color: #fff !important;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .header {
@@ -8,7 +10,8 @@
   display: flex;
   align-items: center ;
   justify-content: space-around;
-  font-size: 1.5rem;
+  padding: 60px !important;
+  font-size: 16px;
 }
 
 .content {
@@ -18,15 +21,35 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #fff !important;
+  background-color: #fff !important;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-image: '../../assets/home-banner.png';
 }
 
 .footer {
   text-align: center;
   padding: 10px 50px;
-  background: #fff !important; /* Customize footer background */
-  color: #fff; /* Footer text color */
+  background: #fff !important;
+  color: #fff;
+}
+
+.menuItems {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px !important;
+}
+
+.menuIconItems {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 22px;
 }

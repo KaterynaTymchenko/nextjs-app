@@ -10,6 +10,7 @@
     "format": "prettier --write '*/**/*.{js,jsx,ts,tsx,json,css,md}'"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
     "@ant-design/nextjs-registry": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
